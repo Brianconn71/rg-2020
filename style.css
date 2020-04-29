@@ -1,0 +1,32 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background: url(Tennis.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buffer{
+    height: 30rem;
+}
+.btn{
+    background-color: #0D86CA;
+    border-radius: 80px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: rgb(18, 148, 223);
+    border-color: rgb(18, 148, 223);
+    width: 300px;
+}
